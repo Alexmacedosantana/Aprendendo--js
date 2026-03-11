@@ -38,7 +38,7 @@ let idade = anoAtual - anoNacimento;
 console.log("A idade de Alex é:" + idade);
 
 //etapa2
-// crie um codigo que tenha uma variavel chamada nota e a nota for maior ou igual a 7 mostre aprovado se for menor mostre reprovado
+// exercicio 1 crie um codigo que tenha uma variavel chamada nota e a nota for maior ou igual a 7 mostre aprovado se for menor mostre reprovado
 
 let nota = 6;
 
@@ -49,3 +49,18 @@ if (nota >= 7) {
 } else {
   console.log("Reprovado");
 }
+
+//exercicio 2 Crie um código que tenha uma variável chamada: numero
+
+let numero5 = 56;
+
+if (numero5 > 0) {
+  console.log("O número é positivo");
+} else if (numero5 === 0) {
+  console.log("O número é zero");
+} else {
+  console.log("O número é negativo");
+}
+//exercicio 3 crie um programa com uma variável chamada:nota o programa deve verificar nota maior ou igual 9 mostrar exelente, nota maior ou igual a 7 mostrar bom, nota maior ou igual a 5 mostrar recuperação e nota menor que 5 mostrar reprovado
+
+
