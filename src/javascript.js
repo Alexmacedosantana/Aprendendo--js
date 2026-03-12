@@ -62,5 +62,17 @@ if (numero5 > 0) {
   console.log("O número é negativo");
 }
 //exercicio 3 crie um programa com uma variável chamada:nota o programa deve verificar nota maior ou igual 9 mostrar exelente, nota maior ou igual a 7 mostrar bom, nota maior ou igual a 5 mostrar recuperação e nota menor que 5 mostrar reprovado
+let nota3 = 6;
+
+if (nota3 >= 9) {
+  console.log("Excelente");// false
+} else if (nota3 >= 7) {// false
+  console.log("Bom");
+} else if (nota3 >= 5) {// true
+  console.log("Recuperação");
+} else {
+  console.log("Reprovado");
+}
+
 
 
