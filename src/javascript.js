@@ -65,14 +65,38 @@ if (numero5 > 0) {
 let nota3 = 6;
 
 if (nota3 >= 9) {
-  console.log("Excelente");// false
-} else if (nota3 >= 7) {// false
+  console.log("Excelente"); // false
+} else if (nota3 >= 7) {
+  // false
   console.log("Bom");
-} else if (nota3 >= 5) {// true
+} else if (nota3 >= 5) {
+  // true
   console.log("Recuperação");
 } else {
   console.log("Reprovado");
 }
+//atividede de operadores logicos
+//Crie uma variável:idade 25se idade for maior ou igual a 18 E menor ou igual a 30 mostrar "Jovem" senão mostrar "Fora do intervalo"
+let idade1 = 25;
 
+if (idade1 >= 18 && idade1 <= 30) {
+  console.log("Jovem");
+} else {
+  console.log("Fora do intervalo");
+}
+//Crie uma variável:idade 15 se idade for menor que 18 || maior que 60 mostrar "Não pode trabalhar" senão mostrar "pode trabalhar"
+let idade2 = 15;
 
+if(idade2 < 18 || idade2 > 60){
+    console.log("Não pode trabalhar");
+}else{
+    console.log("pode trabalhar");
+}
+//Crie uma variável:temCarteira se ! temCarteira for igual a false mostrar "Não pode dirigir" senão mostrar "pode dirigir"
+const temCarteira = false;
 
+if(!temCarteira){
+    console.log("Não pode dirigir");
+}else{
+    console.log("pode dirigir");
+}
