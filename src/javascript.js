@@ -87,16 +87,27 @@ if (idade1 >= 18 && idade1 <= 30) {
 //Crie uma variável:idade 15 se idade for menor que 18 || maior que 60 mostrar "Não pode trabalhar" senão mostrar "pode trabalhar"
 let idade2 = 15;
 
-if(idade2 < 18 || idade2 > 60){
-    console.log("Não pode trabalhar");
-}else{
-    console.log("pode trabalhar");
+if (idade2 < 18 || idade2 > 60) {
+  console.log("Não pode trabalhar");
+} else {
+  console.log("pode trabalhar");
 }
 //Crie uma variável:temCarteira se ! temCarteira for igual a false mostrar "Não pode dirigir" senão mostrar "pode dirigir"
 const temCarteira = false;
 
-if(!temCarteira){
-    console.log("Não pode dirigir");
-}else{
-    console.log("pode dirigir");
+if (!temCarteira) {
+  console.log("Não pode dirigir");
+} else {
+  console.log("pode dirigir");
 }
+
+//Etapa 3 for loop
+   // Exercio1
+for (let i = 1; i <= 10; i++){
+   console.log(i);
+}
+  //exercio2
+  for (let i = 10; i >= 1; i--){
+    console.log(i);
+}
+
