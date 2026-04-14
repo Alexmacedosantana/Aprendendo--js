@@ -110,12 +110,21 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 10; i >= 1; i--) {
   console.log(i);
 }
-//exercio3
+//exercio3 com nomes e numeros de impa par
 
 for (let i = 1; i <= 20; i++) {
   if (i % 2 === 0){
     console.log(i);
+    
   } else {
     console.log("impar:");
   }
+}
+//exercio so com os nomes de impar  par
+for (let i = 1; i <= 15; i++) {
+    if (i % 2 === 0) {
+        console.log("PAR");
+    } else {
+        console.log("ÍMPAR");
+    }
 }
