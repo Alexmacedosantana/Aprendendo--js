@@ -127,4 +127,23 @@ for (let i = 1; i <= 15; i++) {
     } else {
         console.log("ÍMPAR");
     }
+}let passos = 0;
+
+for(let passos = 0; passos <= 5; passos++){
+  console.log('passos dados: ' + passos);
+  passos++;  
+}
+//repitição com whaile
+let i = 1;
+
+while (i < 10){
+    console.log("Executando")
+    i++
+}
+let alex = 10
+
+while (alex < 15){
+    console.log("Nome " + "alex");
+    
+    alex++
 }
