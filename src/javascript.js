@@ -147,3 +147,24 @@ while (alex < 15){
     
     alex++
 }
+// mostre de 1 a 10 com while pares → mostrar o número ímpares → mostrar "ÍMPAR"
+let numero6 = 1;
+
+while (numero6 <= 10){
+  if (numero6 % 2 !== 0) {
+    console.log("ÍMPAR");
+  } else {
+    console.log(numero6);
+  }
+  numero6++;
+}
+let contador = 1;
+
+while (contador <= 20){
+    if (contador % 3 === 0){
+        console.log("Múltiplo de 3");
+    } else {
+        console.log(contador);
+    }
+    contador++;
+}
