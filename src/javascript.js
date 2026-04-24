@@ -158,6 +158,7 @@ while (numero6 <= 10){
   }
   numero6++;
 }
+// mostre de 1 a 20 com while múltiplo de 3 → mostrar "Múltiplo de 3" caso contrário mostrar o número
 let contador = 1;
 
 while (contador <= 20){
@@ -167,4 +168,26 @@ while (contador <= 20){
         console.log(contador);
     }
     contador++;
+}
+// mostre de 1 a 20 com while múltiplo de 3 → mostrar "M3" caso contrário mostrar o número
+let i1 = 1;
+
+while (i1 <= 20){
+    if (i1 % 3 === 2){
+        console.log("M3");
+    } else {
+        console.log(i1);
+    }
+    i1++;
+}
+
+let contador2 = 1;
+
+while (contador2 <= 12) {
+    if (contador2 % 2 === 0){
+        console.log("PAR");
+    } else {
+        console.log(contador2);
+    }
+    contador2++;
 }
