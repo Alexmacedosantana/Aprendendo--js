@@ -191,3 +191,35 @@ while (contador2 <= 12) {
     }
     contador2++;
 }
+// mostre de 1 a 30 com while múltiplo de 3 → mostrar "M3" múltiplo de 5 → mostrar "M5" múltiplo de 3 e 5 → mostrar "M3M5" caso contrário mostrar o número
+let miguelSantana = 1;
+
+while (miguelSantana <= 30){
+    
+    if (miguelSantana % 3 === 0 && miguelSantana % 5 === 0){
+        console.log("M3M5");
+        
+    } else if (miguelSantana % 3 === 0){
+        console.log("M3");
+        
+    } else if (miguelSantana % 5 === 0){
+        console.log("M5");
+        
+    } else {
+        console.log(miguelSantana);
+    }
+    
+    miguelSantana++;
+}
+// mostre de 1 a 20 com while múltiplo de 3 → mostrar "N3" caso contrário mostrar o número
+let alexMacedo = 1;
+
+while (alexMacedo <= 20){
+    
+    if(alexMacedo % 3 !== 0){
+        console.log("N3");
+    } else {
+        console.log(alexMacedo);
+    }
+    alexMacedo++;
+}
