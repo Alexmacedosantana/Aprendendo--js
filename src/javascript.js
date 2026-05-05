@@ -223,3 +223,22 @@ while (alexMacedo <= 20){
     }
     alexMacedo++;
 }
+
+let i5 = 1;//criada variavel
+
+while (i5 <= 30){ //enquanto i5 for menor ou igual a 30 vai repitir varias vezes o bloco de codigo
+
+    if (i5 % 2 === 0 && i5 % 3 === 0){ //se i5 for multiplo de 2 e par e 3 mostrar  p3
+        console .log("p3");
+
+    } else if (i5 % 2 === 0){ //se senao i5 for multiplo de 2 e par mostrar par
+        console.log("par")
+
+    } else if (i5 % 3 === 0){ //se senao i5 for multiplo de 3 mostrar m3
+        console.log("m3");
+
+    }else { //se senao mostrar o numero
+        console.log(i5)
+    }
+    i5++ //incremento para evitar loop infinito
+}
