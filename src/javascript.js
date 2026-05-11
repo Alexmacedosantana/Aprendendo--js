@@ -223,7 +223,7 @@ while (alexMacedo <= 20){
     }
     alexMacedo++;
 }
-
+// mostre de 1 a 30 com while múltiplo de 2 → mostrar "PAR" múltiplo de 3 → mostrar "M3" múltiplo de 2 e 3 → mostrar "P3" caso contrário mostrar o número
 let i5 = 1;//criada variavel
 
 while (i5 <= 30){ //enquanto i5 for menor ou igual a 30 vai repitir varias vezes o bloco de codigo
@@ -242,3 +242,34 @@ while (i5 <= 30){ //enquanto i5 for menor ou igual a 30 vai repitir varias vezes
     }
     i5++ //incremento para evitar loop infinito
 }
+// somar todos os numeros parares de 1 a 20 e mostrar o resultado no console
+let soma2 = 0;
+     
+for (let i = 1; i <= 20; i++){
+    if (i % 2 === 0){
+        soma2 = soma2 + i;
+    }
+}
+
+console.log("SOMA:", soma2);
+
+// somar todos os numeros multiplos de 3 ou 5 de 1 a 30 e mostrar o resultado no console
+let soma3 = 0;
+
+for (let i = 1; i <= 30; i++){
+    if (i % 3 === 0 || i % 5 === 0){                                                    
+       soma3 = soma3 + i;
+    }
+}
+console.log("SOMA", soma3);
+
+// contar quantos numeros multiplos de 3 tem entre 1 e 30 e mostrar o resultado no console
+
+let contado4 = 0;
+
+for (let i = 1; i <= 30; i++){
+    if (i % 3 === 0){
+        contado4++
+    }
+}
+console. log("TOTAL:",contado4);
