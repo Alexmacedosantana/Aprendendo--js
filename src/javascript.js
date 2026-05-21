@@ -273,3 +273,54 @@ for (let i = 1; i <= 30; i++){
     }
 }
 console. log("TOTAL:",contado4);
+
+
+// contar quantos numeros multiplos de 3 tem entre 1 e 50 e mostrar o resultado no console, e somar esses numeros e mostrar a soma no console
+let contador5 = 0;
+let soma5 = 0;
+
+for ( let i = 1; i<= 50; i++){
+    if (i % 3 === 0){
+        contador5++
+       soma5 = soma5 + i; 
+    }
+}
+console.log("TOTAL:", contador5);
+console.log("SOMA", soma5);
+
+// contar quantos numeros multiplos de 3 ou 5 tem entre 1 e 50 e mostrar o resultado no console, e somar esses numeros e mostrar a soma no console
+let contador6 = 0;
+let soma6 = 0;
+
+for ( let i = 1; i <= 50; i++){
+    if (i % 3 === 0 || i % 5 === 0){
+        contador6++
+        soma6 +=i;
+    }
+}
+console.log("TOTAL DE NUMEROS", contador6, "soma",soma6);
+
+
+// contar quantos numeros multiplos de 3 tem entre 1 e 50 e mostrar o resultado no console, e somar esses numeros e mostrar a soma no console
+let contador7 = 0;
+let soma7 =0;
+
+for (let i = 1; i <= 50; i++){
+
+  if (i % 3 ===0){
+    contador7++
+    soma7 += i;
+  }
+}
+console.log("TOTAL DE NUMEROS", contador7, "soma", soma7);
+
+let numero8 = 0;
+let soma8 = 0;
+
+for (let i = 1; i <= 50; i++){
+  if (i % 5 === 0){
+    numero8++
+    soma8 += i;
+  }
+}
+console.log("TOTAL DE NUMEROS", numero8, "soma", soma8);
